@@ -1,0 +1,31 @@
+$background-color: #112732;
+$content-backgound: #0d7d65;
+$secondary-content: #ffa618;
+$third-content: #b49289;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    span{
+        color: $content-backgound;
+    }
+}
+
+ body{
+     margin-top: 10rem;
+ }
+
+
+
+
+.about-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10rem;
+    padding-left: 10rem; 
+    .info{
+        padding-right: 2rem;
+    }
+}

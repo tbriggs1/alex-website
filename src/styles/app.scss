@@ -1,9 +1,15 @@
-$background-color: #171923;
-$content-backgound: #c31331;
-$secondary-content: #f79e1b;
-$third-content: #cbb2ab;
+// $background-color: #171923;
+$background-color: #112732;
+$content-backgound: #0d7d65;
+$secondary-content: #ffa618;
+$third-content: #b49289;
 
 * {
   background: $background-color;
   color: white;
 }
+
+body{
+  width: 1100px;
+}
+

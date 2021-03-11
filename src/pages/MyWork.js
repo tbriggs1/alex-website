@@ -1,11 +1,15 @@
 import React from 'react';
 import '../styles/mywork.scss';
 import Nav from '../components/Nav';
+import WorkIntroductionJs from '../components/WorkIntroduction';
+import Work from '../components/Work';
+
 const MyWork = () => {
     return (
         <div>
             <Nav />
-            <h1>My Work</h1>
+            <WorkIntroductionJs />
+            <Work />
         </div>
     )
 }

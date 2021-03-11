@@ -25,8 +25,8 @@ const Services = () => {
                     </div>
                 </div>
                 <div className="service-text">
-                    <h2><span>Very High Quality Images.</span></h2>
-                    <h2 className="service-text2"><span>Very High Quality Videos.</span></h2>
+                    <h2>Very High Quality <span>Content.</span></h2>
+                    <h2 className="service-text2">Very High Quality <span>Service.</span></h2>
                     <p>I use a mixture of hardware and software to make sure my clients have the best technology available to them, but no technology beats a pair of steady hands,
                         unless of course you have the stabilizer! Fancy an arial shot? I also have a drone available for great content. Some example projects I've worked on are listed to the left
                     </p>

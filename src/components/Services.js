@@ -22,6 +22,11 @@ const Services = () => {
                     <h2>Promotional</h2>
                     <p>Beautiful wedding videos and photos taken </p>
                 </div>
+                <div className="card card4">
+                    <img src={clock} alt="wedding" height="60px" />
+                    <h2>Promotional</h2>
+                    <p>Beautiful wedding videos and photos taken </p>
+                </div>
                 <div className="text-service">
                     <div className="service-text">
                         <h2>Very High Quality <span>Content.</span></h2>

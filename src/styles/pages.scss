@@ -8,137 +8,94 @@ $third-content: #702bd4;
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
-  background: $background-color;
-  color: #2a2a2a;
-  font-size: 22px;
+html {
+  font-size: 62.5%;
 }
-
-.Navbar {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 2rem 2rem;
-  background: #2a2a2a;
-  font-size: 22px;
+h1 {
+  font-size: 2.6rem;
+}
+li,
+button,
+label,
+input,
+p {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 4.8rem;
+}
+h3 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 2.8rem;
+}
+a {
+  text-decoration: none;
   color: white;
-  h3 {
-    padding-left: 3rem;
-  }
-  a {
-    color: white;
-    text-decoration: none;
-  }
-  li {
-    padding-right: 4rem;
-  }
-  ul {
-    display: flex;
-    list-style: none;
-  }
 }
+button {
+  padding: 2rem 6rem;
+  border: none;
+  color: white;
+  background: $content-backgound;
+  font-size: 1.8rem;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+// Nav Section
+.main-header {
+  background: #152a58;
+  color: white;
+}
+nav {
+  min-height: 10vh;
+  padding: 2rem;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.al-title {
+  flex: 2 1 40rem;
+}
+
+// About Section
 
 .about-section {
-  margin-top: 10rem;
-  text-align: center;
+  min-height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url("../images/Alex.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  padding-right: 10rem;
-  padding-left: 10rem;
-  span {
-    color: $content-backgound;
-  }
-  .info {
-    padding-right: 2rem;
-    width: 50vh;
-  }
-  img {
-    padding-left: 5rem;
-    width: 70vh;
+  justify-content: center;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  button {
+    margin-top: 2rem;
   }
 }
 
-.services {
-  background: $content-backgound;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-right: 10rem;
-  padding-left: 10rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  margin-top: 5rem;
-  color: $background-color;
-  span {
-    color: $secondary-content;
+@media screen and (max-width: 964px) {
+  nav {
+    text-align: center;
   }
-  .service-text {
-    display: flex;
-    flex-direction: column;
-    width: 70vh;
-    padding-left: 2rem;
-    justify-content: center;
-    align-items: center;
-    .service-text2 {
-      margin-left: 12rem;
-    }
-    h2 {
-      text-align: center;
-      line-height: 4rem;
-    }
-    p {
-      margin-top: 2rem;
-      text-align: center;
-    }
-    button {
-      margin-top: 5vh;
-      width: 15vh;
-      padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
-      border-radius: 15px;
-      border: none;
-      font-size: 18px;
-      color: black;
-      background: $secondary-content;
-      font-weight: bold;
-      transition: 1s;
-    }
-    button:hover {
-      background: white;
-      color: black;
-      font-weight: bold;
-    }
-  }
-
-  .cards {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 7rem;
-    .card {
-      flex: 1 0 40%;
-      border-radius: 5px;
-      width: 10vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      height: 20vh;
-      padding: 1rem 2rem;
-      margin-bottom: 1rem;
-      margin-left: 2rem;
-      text-align: center;
-      background: white;
-      color: black;
-      img {
-        margin-bottom: 2rem;
-      }
-      h2 {
-        color: #2d2d2d;
-      }
-    }
-    .card-stag {
-      margin-top: 5rem;
-    }
+  .al-title {
+    padding: 1rem;
   }
 }

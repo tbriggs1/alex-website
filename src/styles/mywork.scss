@@ -2,3 +2,122 @@ $background-color: white;
 $content-backgound: #2a54ad;
 $secondary-content: #f8ad2a;
 $third-content: #702bd4;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+h1 {
+  font-size: 2.6rem;
+}
+li,
+button,
+label,
+input,
+p {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 4.8rem;
+}
+h3 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 2.8rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.main-div {
+  width: 90%;
+  margin: auto;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.work-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  margin-bottom: 10rem;
+}
+
+.main-section {
+  background: white;
+}
+
+.work-text {
+  width: 40%;
+  h2 {
+    text-shadow: 1px 0.5px #2c2b2b;
+    margin-bottom: 2rem;
+  }
+}
+
+.work-img {
+  img {
+    width: 40vw;
+  }
+}
+.main-work-section {
+  width: 90%;
+  margin: auto;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.main-work-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  margin-bottom: 20rem;
+  img {
+    width: 45vw;
+  }
+  .worker-text {
+    color: white;
+    width: 45vw;
+  }
+  h2 {
+    margin-bottom: 2rem;
+  }
+  h4 {
+    margin-bottom: 2rem;
+  }
+}
+
+.Work1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  margin-bottom: 20rem;
+  img {
+    flex-grow: 1;
+    width: 45vw;
+  }
+  .worker-text {
+    width: 45vw;
+  }
+  h2 {
+    margin-bottom: 2rem;
+  }
+  h4 {
+    margin-bottom: 2rem;
+  }
+}

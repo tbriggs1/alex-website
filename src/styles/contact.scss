@@ -41,3 +41,69 @@ a {
   align-items: center;
   justify-content: center;
 }
+
+.form-container {
+  display: flex;
+  background: $content-backgound;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 15rem;
+  width: 60%;
+}
+
+.form {
+  margin-right: 15rem;
+}
+
+.form-div {
+  button {
+    margin-top: 5rem;
+    background: $secondary-content;
+  }
+}
+
+.email {
+  display: flex;
+  margin-bottom: 5rem;
+  align-items: center;
+  width: 60%;
+  border-radius: 50px;
+  transition: 0.5s;
+  cursor: pointer;
+  .email-icon {
+    margin-right: 2rem;
+  }
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+  width: 40%;
+  border-radius: 50px;
+  transition: 0.5s;
+  cursor: pointer;
+  .number-icon {
+    margin-right: 2rem;
+  }
+}
+
+.social-links {
+  width: 15vw;
+  display: flex;
+  gap: 3rem;
+  paddin: 1rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  border-radius: 25px;
+  width: 30vw;
+}

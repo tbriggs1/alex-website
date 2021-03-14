@@ -1,16 +1,17 @@
 import React from 'react';
 import Binks from '../images/binks.PNG'
 import Wedding from '../images/chriswedding.PNG';
+import Photoshop from '../images/photoshop.PNG'
 
 const Work = () => {
     return(
-        <div>
+        <section className="main-work-section">
             <div className="Work">
                 <div className="background-container">
                     <div className="text-background"></div>
                         <div className="worker-text">
-                            <h1>Binkys Butchers</h1>
-                            <h3>On this project I worked on creating a promotional video for a local butchers</h3>
+                            <h2><span>Binkys Butchers</span></h2>
+                            <h4>On this project I worked on creating a promotional video for a local butchers</h4>
                             <button>Check it out!</button>
                         </div>
                 </div>
@@ -23,12 +24,25 @@ const Work = () => {
                     <img src={Wedding} alt="Great wedding day"/>
                 </div>
                 <div className="worker-text">
-                    <h1>Wedding Video</h1>
-                    <h3>For this piece I went out to narnia to film a fanastic wedding</h3>
+                    <h2><span>Wedding Video</span></h2>
+                    <h4>For this piece I went out to narnia to film a fanastic wedding</h4>
                     <button>Check it out!</button>
                 </div>
             </div>
-        </div>
+            <div className="Work">
+                <div className="background-container">
+                    <div className="text-background"></div>
+                        <div className="worker-text">
+                            <h2><span>Binkys Butchers</span></h2>
+                            <h4>On this project I worked on creating a promotional video for a local butchers</h4>
+                            <button>Check it out!</button>
+                        </div>
+                </div>
+                <div className="work-background">
+                    <img src={Photoshop} alt="Binks the butcher"/>
+                </div>
+            </div>
+        </section>
     )
 }
 

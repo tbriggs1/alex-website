@@ -1,6 +1,6 @@
 $background-color: #2a2a2a;
-$content-backgound: #2a54ad;
-$secondary-content: #f8ad2a;
+$content-backgound: #0e46ff;
+$secondary-content: #ff7f38;
 $third-content: #2a2a2a;
 
 * {
@@ -81,6 +81,10 @@ nav ul {
   min-height: 90vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
     url("../images/Alex.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

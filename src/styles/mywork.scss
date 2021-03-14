@@ -85,13 +85,16 @@ a {
   align-items: center;
   justify-content: center;
   gap: 10rem;
+  color: white;
+  width: 90vw;
   margin-bottom: 20rem;
   img {
-    width: 45vw;
+    flex-grow: 1;
+    width: 40vw;
   }
   .worker-text {
     color: white;
-    width: 45vw;
+    width: 40vw;
   }
   h2 {
     margin-bottom: 2rem;
@@ -106,13 +109,15 @@ a {
   align-items: center;
   justify-content: center;
   gap: 10rem;
+  color: white;
+  width: 90vw;
   margin-bottom: 20rem;
   img {
     flex-grow: 1;
-    width: 45vw;
+    width: 40vw;
   }
   .worker-text {
-    width: 45vw;
+    width: 40vw;
   }
   h2 {
     margin-bottom: 2rem;

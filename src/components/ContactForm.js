@@ -33,8 +33,12 @@ const ContactForm = () => {
                             <input type="text" name="name" required /> 
                         </div>
                         <div className="email-form">
-                            <label for="email"></label>
+                            <label for="email">Email:</label>
                             <input type="email" name="email" required />
+                        </div>
+                        <div className="text-form">
+                            <label for="text">Message:</label>
+                            <textarea form="form_id" type="text-area" name="text" required />
                         </div>
                         <button type="submit">Submit</button>
                     </form>

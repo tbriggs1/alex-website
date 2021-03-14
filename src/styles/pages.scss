@@ -103,15 +103,6 @@ nav ul {
   }
 }
 
-@media screen and (max-width: 964px) {
-  nav {
-    text-align: center;
-  }
-  .al-title {
-    padding: 1rem;
-  }
-}
-
 // Services Section
 
 .main-services {
@@ -190,15 +181,6 @@ nav ul {
   }
 }
 
-@media (max-width: 850px) {
-  .services {
-    display: flex !important;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-  }
-}
-
 // FAQ Section
 .FAQ-section {
   display: flex;
@@ -233,4 +215,50 @@ nav ul {
   width: 40%;
   background: $secondary-content;
   height: 0.5rem;
+}
+
+@media screen and (max-width: 964px) {
+  nav {
+    text-align: center;
+  }
+  .al-title {
+    padding: 1rem;
+  }
+  .about-section {
+    h2 {
+      font-size: 2.8rem;
+    }
+    h4 {
+      font-size: 1rem;
+    }
+    h3 {
+      font-size: 2rem;
+    }
+    .info {
+      width: 80vw;
+    }
+  }
+  .services {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    .card {
+      width: 90vw;
+      height: 50vh;
+    }
+  }
+  .text-service {
+    width: 90vw;
+    text-align: center;
+  }
+  .FAQ {
+    text-align: center;
+  }
+  .underline {
+    visibility: hidden;
+  }
+  .titleline {
+    visibility: hidden;
+  }
 }

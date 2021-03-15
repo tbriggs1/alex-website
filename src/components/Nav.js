@@ -21,6 +21,11 @@ const Nav = () => {
                                     {/* <Line transition={{duration: 0.75}} initial={{width:"0%"}} animate={{width: pathname === '/contact' ? "50%" : "0%"}}></Line> */}
                                 </li>
                         </ul>
+                        <div className="burger-menu">
+                            <div className="burger"></div>
+                            <div className="burger"></div>
+                            <div className="burger"></div>
+                        </div>
                 </nav>
             </header>
         </div>

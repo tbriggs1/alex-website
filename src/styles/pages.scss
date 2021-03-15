@@ -62,6 +62,19 @@ nav {
   margin: auto;
   align-items: center;
   flex-wrap: wrap;
+  .burger{
+    visibility: visible; 
+    width: 5rem;
+    height: 0.5vh;
+    background: white;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    visibility: hidden;
+  }
+  .burger-menu{
+    display:flex;
+    flex-direction: column;
+  }
 }
 nav ul {
   display: flex;
@@ -218,10 +231,25 @@ nav ul {
 
 @media screen and (max-width: 964px) {
   nav {
-    text-align: center;
+    min-height: 10vh;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  flex-wrap: nowrap;
+    ul{
+      visibility: hidden;
+    }
+    .burger{
+      visibility: visible;
+      width: 4rem;
+    }
   }
   .al-title {
     padding: 1rem;
+    width: 40vw;
+    display:inline;
+    text-align: center;
   }
   .about-section {
     h2 {

@@ -1,10 +1,14 @@
 import React from 'react';
 import Alex2 from '../images/Alex2.jpg'
+import {fade} from '../components/Animations.js';
+import {UseScroll} from '../components/Scroll.js';
+import {motion} from 'framer-motion';
 
 const WorkIntroductionJs = () => {
+    const [element, controls] = UseScroll();
     return (
         <section className="main-section">
-            <div className="main-div">
+            <motion.div className="main-div" variants={fade} animate={controls} inital="hidden" ref={element}>
                 <div className="work-intro">
                     <div className="work-img">
                         <img src={Alex2} alt="work introduction"/>
@@ -16,7 +20,7 @@ const WorkIntroductionJs = () => {
                         </h3>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </section>
     )
 }

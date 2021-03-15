@@ -1,9 +1,13 @@
 import React from 'react';
+import {scrollReveal} from '../components/Animations.js';
+import {UseScroll} from '../components/Scroll.js';
+import {motion} from 'framer-motion';
 
 const FAQ = () => {
+    const [element, controls] = UseScroll();
     return(
         <section className="FAQ-section">
-            <div className="FAQ">
+            <motion.div className="FAQ" variants={scrollReveal} animate={controls} initial="hidden" ref={element}>
                 <h1>FAQ</h1>
                 <div className="titleline"></div>
                 <div className="FAQ1" title="How Do I start?">
@@ -46,7 +50,7 @@ const FAQ = () => {
                     </div>
                     <div className="underline"></div>
                     </div>
-            </div>
+            </motion.div>
         </section>
     )
 };

@@ -1,17 +1,19 @@
 import React from 'react';
+import {motion} from 'framer-motion';
 import {Link} from 'react-router-dom';
 
 const Nav = () => {
+    
     return(
         <div>
             <header className="main-header">
                 <nav className="Navbar">
                     <h1 className="al-title">Alex Harrison</h1>
                             <ul className="nav-content">
-                                <li>
+                                <motion.li >
                                     <Link to="/">1. About Us</Link>
                                     {/* <Line transition={{duration: 0.75}} initial={{width:"0%"}} animate={{width: pathname === '/' ? "50%" : "0%"}}></Line> */}
-                                </li>
+                                </motion.li>
                                 <li>
                                     <Link to="/work">2. Our Work</Link>
                                     {/* <Line transition={{duration: 0.75}} initial={{width:"0%"}} animate={{width: pathname === '/work' ? "50%" : "0%"}}></Line> */}

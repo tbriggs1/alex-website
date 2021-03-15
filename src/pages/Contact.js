@@ -1,14 +1,14 @@
 import React from 'react';
 import '../styles/contact.scss'
-import Nav from '../components/Nav';
 import ContactForm from '../components/ContactForm';
+import {motion} from 'framer-motion';
+import {pageAnimation} from "../components/Animations.js"
 
 const Contact = () => {
     return(
-        <div>
-        <Nav />
+        <motion.div exit="exit" variants={pageAnimation} initial='hidden' animate='show'>
         <ContactForm />
-        </div>
+        </motion.div>
     )
 }
 

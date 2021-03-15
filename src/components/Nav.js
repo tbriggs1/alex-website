@@ -3,25 +3,21 @@ import {motion} from 'framer-motion';
 import {Link} from 'react-router-dom';
 
 const Nav = () => {
-    
     return(
         <div>
             <header className="main-header">
                 <nav className="Navbar">
                     <h1 className="al-title">Alex Harrison</h1>
                             <ul className="nav-content">
-                                <motion.li >
+                                <motion.li whileHover={{ scale: 1.2 }}>
                                     <Link to="/">1. About Us</Link>
-                                    {/* <Line transition={{duration: 0.75}} initial={{width:"0%"}} animate={{width: pathname === '/' ? "50%" : "0%"}}></Line> */}
                                 </motion.li>
-                                <li>
+                                <motion.li whileHover={{ scale: 1.2 }}>
                                     <Link to="/work">2. Our Work</Link>
-                                    {/* <Line transition={{duration: 0.75}} initial={{width:"0%"}} animate={{width: pathname === '/work' ? "50%" : "0%"}}></Line> */}
-                                </li>
-                                <li>
+                                </motion.li>
+                                <motion.li whileHover={{ scale: 1.2 }}>
                                     <Link to="/contact">3. Contact Us</Link>
-                                    {/* <Line transition={{duration: 0.75}} initial={{width:"0%"}} animate={{width: pathname === '/contact' ? "50%" : "0%"}}></Line> */}
-                                </li>
+                                </motion.li>
                         </ul>
                         <div className="burger-menu">
                             <div className="burger"></div>

@@ -12,7 +12,6 @@ const Nav = () => {
                                 <motion.li whileHover={{ scale: 1.2 }}>
                                     <Link to="/">1. About Us</Link>
                                 </motion.li>
-                                <div className="nav-line"></div>
                                 <motion.li whileHover={{ scale: 1.2 }}>
                                     <Link to="/work">2. Our Work</Link>
                                 </motion.li>
@@ -28,8 +27,10 @@ const Nav = () => {
                 </nav>
             </header>
         </div>
+        
     )
 };
 
 export default Nav;
+
 

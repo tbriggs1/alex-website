@@ -8,7 +8,6 @@ import {AnimatePresence} from 'framer-motion';
 import SecondWork from './components/SecondWork.js';
 import FirstWork from './components/FirstWork.js';
 import ThirdWork from './components/ThirdWork.js';
-import Footer from './components/Footer.js';
 
 function App() {
   const location = useLocation();
@@ -36,7 +35,6 @@ function App() {
                 <ThirdWork />
               </Route>
           </Switch>
-          <Footer />
       </AnimatePresence>
     </div>
   );

@@ -251,10 +251,10 @@ nav ul {
   align-items: center;
   flex-wrap: nowrap;
     ul{
-      visibility: hidden;
+      visibility:visible;
     }
     .burger{
-      visibility: visible;
+      visibility: hidden;
       width: 4rem;
     }
   }

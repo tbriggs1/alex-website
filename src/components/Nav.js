@@ -1,14 +1,13 @@
 import React from 'react';
 import {motion} from 'framer-motion';
-import {Link, useLocation} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 const Nav = () => {
-    const {pathname} = useLocation();
     return(
         <div>
             <header className="main-header">
                 <nav className="Navbar">
-                    <h1 className="al-title">Alex Harrison</h1>
+                    <h1 className="al-title"><Link to="/">Alex Harrison</Link></h1>
                             <ul className="nav-content">
                                 <motion.li whileHover={{ scale: 1.2 }}>
                                     <Link to="/">1. About Us</Link>

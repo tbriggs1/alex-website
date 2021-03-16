@@ -2,6 +2,7 @@ import React from 'react';
 import Binks from '../images/binks.PNG'
 import Wedding from '../images/chriswedding.PNG';
 import Photoshop from '../images/photoshop.PNG'
+import {motion} from 'framer-motion';
 
 const Work = () => {
     return(
@@ -12,7 +13,7 @@ const Work = () => {
                         <div className="worker-text">
                             <h2><span>Binkys Butchers</span></h2>
                             <h4>On this project I worked on creating a promotional video for a local butchers</h4>
-                            <button>Check it out!</button>
+                            <motion.button whileHover={{ scale: 1.2 }}>Check it out!</motion.button>
                         </div>
                 </div>
                 <div className="work-background">
@@ -26,7 +27,7 @@ const Work = () => {
                 <div className="worker-text">
                     <h2><span>Wedding Video</span></h2>
                     <h4>For this piece I went out to narnia to film a fanastic wedding</h4>
-                    <button>Check it out!</button>
+                    <motion.button whileHover={{ scale: 1.2 }}>Check it out!</motion.button>
                 </div>
             </div>
             <div className="Work">
@@ -35,7 +36,7 @@ const Work = () => {
                         <div className="worker-text">
                             <h2><span>Binkys Butchers</span></h2>
                             <h4>On this project I worked on creating a promotional video for a local butchers</h4>
-                            <button>Check it out!</button>
+                            <motion.button whileHover={{ scale: 1.2 }}>Check it out!</motion.button>
                         </div>
                 </div>
                 <div className="work-background">

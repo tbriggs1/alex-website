@@ -10,13 +10,13 @@ const Nav = () => {
                     <h1 className="al-title"><Link to="/">Alex Harrison</Link></h1>
                             <ul className="nav-content">
                                 <motion.li whileHover={{ scale: 1.2 }}>
-                                    <Link to="/">1. About Us</Link>
+                                    <Link to="/">1. About</Link>
                                 </motion.li>
                                 <motion.li whileHover={{ scale: 1.2 }}>
-                                    <Link to="/work">2. Our Work</Link>
+                                    <Link to="/work">2. Work</Link>
                                 </motion.li>
                                 <motion.li whileHover={{ scale: 1.2 }}>
-                                    <Link to="/contact">3. Contact Us</Link>
+                                    <Link to="/contact">3. Contact</Link>
                                 </motion.li>
                         </ul>
                         <div className="burger-menu">

@@ -11,6 +11,11 @@ $third-content: #2a2a2a;
 html {
   font-size: 62.5%;
   background: $third-content;
+  font-family: 'Lato', sans-serif !important;
+}
+body{
+  background: $background-color;
+  font-family: 'Lato', sans-serif;
 }
 h1 {
   font-size: 2.6rem;
@@ -33,7 +38,7 @@ h4 {
 }
 a {
   text-decoration: none;
-  color: white;
+  color: white !important;
 }
 button {
   padding: 2rem 6rem;
@@ -49,10 +54,39 @@ span {
 }
 
 // Nav Section
-.main-header {
+.navbar, .bg-dark, .navbar-expand-md, .navbar-dark{
+  background-color: #333232 !important;
   background: #333232;
+  width: 100vw;
+  display:flex !important;
   color: white;
   z-index: 2;
+  justify-content: space-evenly;
+  align-content: center;
+
+  font-size: 2rem;
+}
+.navbar {
+  
+  padding: 0 !important;
+}
+.navbar-expand-md .navbar-nav{
+  gap: 4rem;
+}
+.navbar-brand{
+  font-size: 2rem;
+}
+.contact-button{
+  padding: 2rem 6rem;
+  border: none;
+  color: white !important;
+  background: $content-backgound;
+  font-size: 1.8rem;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.navbar-collapse {
+  flex-grow: 0;
 }
 nav {
   min-height: 10vh;
@@ -76,7 +110,7 @@ nav {
     flex-direction: column;
   }
 }
-nav ul {
+.nav-content {
   display: flex;
   flex: 1 1 40rem;
   align-items: center;
@@ -243,27 +277,7 @@ nav ul {
 }
 
 @media screen and (max-width: 964px) {
-  nav {
-    min-height: 10vh;
-  display: flex;
-  width: 90%;
-  margin: auto;
-  align-items: center;
-  flex-wrap: nowrap;
-    ul{
-      visibility:visible;
-    }
-    .burger{
-      visibility: hidden;
-      width: 4rem;
-    }
-  }
-  .al-title {
-    padding: 1rem;
-    width: 40vw;
-    display:inline;
-    text-align: center;
-  }
+ 
   .about-section {
     h2 {
       font-size: 2.8rem;

@@ -2,7 +2,8 @@ import React from 'react';
 import AboutSection from '../components/AboutSection.js';
 import Services from '../components/Services.js';
 import FAQ from '../components/FAQ';
-import '../styles/pages.scss';
+// import 'bootstrap/dist/css/bootstrap.css';
+// import '../styles/pages.scss';
 import {motion} from 'framer-motion';
 import {aboutPageAnimation} from "../components/Animations.js"
 

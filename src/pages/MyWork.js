@@ -1,5 +1,6 @@
 import React from 'react';
-import '../styles/mywork.scss';
+// import 'bootstrap/dist/css/bootstrap.css';
+// import '../styles/mywork.scss';
 import WorkIntroductionJs from '../components/WorkIntroduction';
 import Work from '../components/Work';
 import {motion} from 'framer-motion';

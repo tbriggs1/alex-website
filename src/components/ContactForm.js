@@ -20,8 +20,8 @@ const ContactForm = () => {
                         <h4>AlexHarrsion@hotmail.com</h4>
                         </div>
                         <div className="social-links">
-                            <FontAwesomeIcon icon={faInstagram} size="3x"/>
-                            <FontAwesomeIcon icon={faYoutube} size="3x"/>
+                            <a href="https://www.instagram.com/a.harrison_outdoors/"><FontAwesomeIcon icon={faInstagram} size="3x"/></a>
+                            <a href="https://www.youtube.com/channel/UC1uCR87KDjENrVA845KwMMg"><FontAwesomeIcon icon={faYoutube} size="3x"/></a>
                             <FontAwesomeIcon icon={faTwitter} size="3x"/>
                         </div>
                         </div>

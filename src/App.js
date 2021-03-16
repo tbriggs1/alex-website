@@ -5,6 +5,10 @@ import Contact from './pages/Contact.js';
 import Nav from './components/Nav';
 import {Switch, Route, useLocation} from 'react-router-dom';
 import {AnimatePresence} from 'framer-motion';
+import SecondWork from './components/SecondWork.js';
+import FirstWork from './components/FirstWork.js';
+import ThirdWork from './components/ThirdWork.js';
+import Footer from './components/Footer.js';
 
 function App() {
   const location = useLocation();
@@ -22,7 +26,17 @@ function App() {
               <Route path="/contact" exact>
                 <Contact />
               </Route>
+              <Route path="/FirstWork" exact>
+                <FirstWork />
+              </Route>
+              <Route path="/SecondWork" exact>
+                <SecondWork />
+              </Route>
+              <Route path="/ThirdWork" exact>
+                <ThirdWork />
+              </Route>
           </Switch>
+          <Footer />
       </AnimatePresence>
     </div>
   );

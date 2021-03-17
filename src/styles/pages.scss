@@ -292,6 +292,13 @@ nav {
       width: 80vw;
     }
   }
+
+  .navbar-expand-md .navbar-nav {
+    gap:1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+  }
   .services {
     width: 90vw;
     margin: auto;

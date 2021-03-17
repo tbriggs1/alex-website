@@ -15,7 +15,7 @@ const Services = () => {
         <div className="main-services">
             <div className="services">
                 <div className="card card1">
-                    <div className="card-header">
+                    <div className="service-card-header">
                     <FontAwesomeIcon className="number-icon" icon={faRing} size="4x"/>
                     <h2>Weddings</h2>
                     </div>

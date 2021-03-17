@@ -17,9 +17,9 @@ const NavSection = () => {
         
           </Nav>
           <Nav>
-            <Nav.Link href="/">About Me</Nav.Link>
-            <Nav.Link href="work">My Work</Nav.Link>
-            <Nav.Link href="contact">Contact Me</Nav.Link>
+          <Link to="/">About Me</Link>
+          <Link to="/work">My Work</Link>
+          <Link to="/contact">Contact Me</Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
